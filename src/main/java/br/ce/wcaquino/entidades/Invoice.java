@@ -22,4 +22,11 @@ public class Invoice {
         return amount;
     }
 
+    @Override
+    public String toString() {
+        return "Invoice{" +
+                "customer='" + customer + '\'' +
+                ", amount=" + amount +
+                '}';
+    }
 }
