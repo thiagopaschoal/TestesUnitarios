@@ -1,9 +1,9 @@
-package br.ce.wcaquino.servicos;
+package br.ce.wcaquino.converters;
 
 import br.ce.wcaquino.utils.NumberUtils;
 
-public class RomanNumberService {
-    public String getNumberInRoman(int number) {
+public class RomanNumberConverter {
+    public String toRoman(int number) {
         String numberInRoman = "";
         if (number >= 1000) {
             int value = number / 1000;
